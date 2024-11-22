@@ -1,0 +1,28 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+section {
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+  max-width: 50ch;
+  color: color-mix(in srgb, coral 50%, beige);
+  margin: 10px auto;
+  /* text-wrap: balance; */
+  word-break: break-all;
+}
+
+.link {
+  opacity: 0.5;
+}
+
+.link.active {
+  opacity: 1;
+}
